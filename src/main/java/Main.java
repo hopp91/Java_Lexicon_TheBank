@@ -15,6 +15,10 @@ public class Main {
                 new LoanAccount("Charlie", 5000, 0.03)
         );
 
+        bank.addAccount(
+                new SavingsAccount("Jesper", 25000, 0.07)
+        );
+
         IO.println("Before monthly processing:");
         bank.printAllSummaries();
 
