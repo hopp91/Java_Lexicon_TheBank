@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
 // Abstract parent class
 abstract class Account {
     private String holder;

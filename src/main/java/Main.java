@@ -1,18 +1,18 @@
 public class Main {
     public static void main(String[] args) {
 
-        Bank bank = new Bank("My Bank");
+        Bank bank = new Bank("Lexicon Bank");
 
         bank.addAccount(
-                new SavingsAccount("Alice", 10000, 0.02)
+                new SavingsAccount("Alice",  1000, 0.02)
         );
 
         bank.addAccount(
-                new CheckingAccount("Bob", 5000, 50)
+                new CheckingAccount("Bob", 500, 25)
         );
 
         bank.addAccount(
-                new LoanAccount("Charlie", 20000, 0.05)
+                new LoanAccount("Charlie", 5000, 0.03)
         );
 
         IO.println("Before monthly processing:");
